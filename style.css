@@ -1,0 +1,47 @@
+body{
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    font-family: 'Open Sans', sans-serif !important;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x1100/?landscape');
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.form-control{
+    padding: 3px 20px;
+    border-radius: 30px;
+    max-width: 300px;
+    margin-left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.form-control:focus{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 20%);
+}
+.change-location label{
+    margin: 10px auto;
+}
+.card{
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+}
+.card img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
